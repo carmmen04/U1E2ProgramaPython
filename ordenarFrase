@@ -1,0 +1,8 @@
+archivo = open("D:/PyCharm/frasePython.txt") #En esta línea va la ruta del txt.
+print (archivo.read()) #En esta línea se lee y se imprime el txt desordenado.
+
+frase ="La Vaca Lola Tiene Cabeza Y Cola" #Una variable con la frase ordenada.
+
+frase.split() #Aquí compara el txt con la variable anterior
+lista = frase.split() #Una variable que guarde el resultado del "Split", es decir, el txt ya ordenado.
+print(lista) #Imprime el txt ordenado.
